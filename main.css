@@ -139,6 +139,29 @@ video {
   z-index: 110;
 }
 
-.nav-item {
+/* .nav-item {
   padding: 0 1.5rem;
+} */
+
+
+/* Changes made by Vipul */
+.navbar{
+  text-transform: uppercase;
+  background-color: #252627;
+  z-index: 200;
 }
+.navbar .navbar-brand {
+  color: white;
+  font-weight: 200;
+}
+.navbar .nav-link {
+  color: #a8a6a6;
+  font-weight: 200;
+}
+
+.navbar .nav-link:hover {
+  color: white;
+}
+
+
+
